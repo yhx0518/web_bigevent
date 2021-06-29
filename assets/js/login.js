@@ -71,7 +71,7 @@ $(function() {
 				// 将登陆成功的得到的 token 字符串 保存到 local storage
 				localStorage.setItem('token', res.token);
 				// 跳转后台主页
-				location.href = '/index.html';
+				location.href = './index.html';
 			}
 		});
 	});
